@@ -1,0 +1,208 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+.navbar {
+    background-color: white;
+    padding: 1% 0%;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    min-height: 30px;
+    padding: 0 15px 5px;
+    height: 20px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: black;
+}
+
+.navbar-default .navbar-nav li a.active {
+    transform: scale(1.5);
+}
+
+.navbar-default .navbar-nav li a:hover {
+    transform: scale(1.2);
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 600%;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.paddding img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 5% 5% 10% 5%;
+    color: antiquewhite;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.fa:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 200px;
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./img/pharmacy-pills.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#lab {
+    color: antiquewhite;
+}
+
+#logo {
+    height: 70px;
+    margin-left: -10px;
+    margin-top: -14px;
+}
+
+#welcome {
+    color: whitesmoke;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#fixed {
+    background: url(./img/middle.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#icon_col {
+    color: black;
+}
+
+#icon_scale {
+    transform: scale(1.8);
+    padding: 20px;
+    color: blanchedalmond;
+}
+
+#pharmacy-shutterstock {
+    width: 100%;
+    margin-top: -14px;
+}
+
+.stat {
+    margin-left: 25px;
+}
+
+.stat i {
+    font-size: 50px;
+}
+
+.stat-items h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: darkorange;
+}
+
+.stat p {
+    font-weight: bold;
+}
+
+.slide-container {
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img {
+    width: 25%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+@media (max-width:768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
